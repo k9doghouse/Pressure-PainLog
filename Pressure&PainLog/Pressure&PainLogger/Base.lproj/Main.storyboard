@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Jh8-Zg-OJN">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Barometric Chart View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="ChartViewController" storyboardIdentifier="ChartViewController" title="Barometric Chart View" modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ChartViewController" customModule="Pressure_PainLogger" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KHr-QU-Hyb"/>
+                        <viewControllerLayoutGuide type="bottom" id="z1E-Nn-vwM"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Jul 11, 2019 at 12:54:25 - 1003.04 mb " textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPE-v6-4IQ">
+                                <rect key="frame" x="32" y="635" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1184270903" green="0.15331286190000001" blue="0.128531754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Barometric Pressure" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjV-rJ-wta">
+                                <rect key="frame" x="91" y="552" width="232" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1184270903" green="0.15331286190000001" blue="0.128531754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 1003.04 mb" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znW-xc-pGz">
+                                <rect key="frame" x="105" y="582" width="204" height="45"/>
+                                <color key="tintColor" red="0.0" green="0.350058913230896" blue="0.25951388478279114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1184270903" green="0.15331286190000001" blue="0.128531754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" restorationIdentifier="charterView" translatesAutoresizingMaskIntoConstraints="NO" id="BsY-B0-Elu" customClass="Charter" customModule="Pressure_PainLogger" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="151" width="414" height="393"/>
+                                <color key="backgroundColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" updatesFrequently="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FB0-Ze-nqQ" customClass="RoundedButton" customModule="Pressure_PainLogger" customModuleProvider="target">
+                                <rect key="frame" x="148" y="667" width="118" height="46"/>
+                                <color key="backgroundColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="N04-f4-9vx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="tintColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="12" maxX="8" maxY="12"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title=" Refresh Chart">
+                                    <color key="titleColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="RefreshChartViewButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9SY-BD-5qo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barometric Pressure Chart" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l7Y-2j-vSu">
+                                <rect key="frame" x="115.66666666666667" y="124" width="182.66666666666663" height="19"/>
+                                <color key="backgroundColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.74093376990000004" green="0.212550089" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BsY-B0-Elu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Mo-cD-Nmh"/>
+                            <constraint firstItem="kPE-v6-4IQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="2gP-7P-2r6"/>
+                            <constraint firstItem="znW-xc-pGz" firstAttribute="centerX" secondItem="kPE-v6-4IQ" secondAttribute="centerX" id="3dK-7H-q1C"/>
+                            <constraint firstItem="BsY-B0-Elu" firstAttribute="top" secondItem="l7Y-2j-vSu" secondAttribute="bottom" constant="8" symbolic="YES" id="8QQ-0L-ixS"/>
+                            <constraint firstItem="z1E-Nn-vwM" firstAttribute="top" secondItem="kPE-v6-4IQ" secondAttribute="bottom" constant="77" id="8TY-np-yeZ"/>
+                            <constraint firstItem="FB0-Ze-nqQ" firstAttribute="top" secondItem="kPE-v6-4IQ" secondAttribute="bottom" constant="8" symbolic="YES" id="DWM-O6-fp9"/>
+                            <constraint firstItem="vjV-rJ-wta" firstAttribute="top" secondItem="BsY-B0-Elu" secondAttribute="bottom" constant="8" symbolic="YES" id="DvK-oY-92U"/>
+                            <constraint firstItem="l7Y-2j-vSu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E0z-WP-qF5"/>
+                            <constraint firstItem="vjV-rJ-wta" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FKv-ds-T3z"/>
+                            <constraint firstItem="FB0-Ze-nqQ" firstAttribute="centerX" secondItem="BsY-B0-Elu" secondAttribute="centerX" id="HO9-cT-UyP"/>
+                            <constraint firstItem="kPE-v6-4IQ" firstAttribute="top" secondItem="znW-xc-pGz" secondAttribute="bottom" constant="8" symbolic="YES" id="N1v-iq-Ewe"/>
+                            <constraint firstItem="z1E-Nn-vwM" firstAttribute="top" secondItem="FB0-Ze-nqQ" secondAttribute="bottom" constant="23" id="aRl-4h-UIl"/>
+                            <constraint firstItem="znW-xc-pGz" firstAttribute="top" secondItem="vjV-rJ-wta" secondAttribute="bottom" constant="6" id="b0r-X1-IOQ"/>
+                            <constraint firstItem="BsY-B0-Elu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ld5-Xm-ZtS"/>
+                            <constraint firstItem="l7Y-2j-vSu" firstAttribute="top" secondItem="KHr-QU-Hyb" secondAttribute="bottom" constant="8" id="t4g-i2-wsr"/>
+                            <constraint firstItem="vjV-rJ-wta" firstAttribute="centerX" secondItem="znW-xc-pGz" secondAttribute="centerX" id="uv2-GV-ohb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pressure &amp; Pain Logger" largeTitleDisplayMode="always" id="jj7-AG-n0C">
+                        <barButtonItem key="rightBarButtonItem" title="List" id="ccb-tR-fJi">
+                            <color key="tintColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="listButtonTapped:" destination="BYZ-38-t0r" id="rsm-GV-2IQ"/>
+                                <segue destination="Oob-Pz-7Uc" kind="show" id="TSC-8q-06u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bigStringLabel" destination="kPE-v6-4IQ" id="4Ho-CX-P3T"/>
+                        <outlet property="chartView" destination="BsY-B0-Elu" id="o62-sU-SZg"/>
+                        <outlet property="currentPressureLabel" destination="znW-xc-pGz" id="wEQ-hH-JWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955.07246376811599" y="24.456521739130437"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="puv-BO-6rc">
+            <objects>
+                <tableViewController restorationIdentifier="tableviewController" automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" id="Oob-Pz-7Uc" customClass="TableViewController" customModule="Pressure_PainLogger" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceVertical="YES" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="1" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="zKp-8j-Jt8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.25500309469999999" green="0.27290308479999997" blue="0.3005508482" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="scrollIndicatorInsets" minX="0.0" minY="8" maxX="0.0" maxY="8"/>
+                        <color key="separatorColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                        <color key="sectionIndexColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.74093376990000004" green="0.212550089" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" restorationIdentifier="theCell" layoutMarginsFollowReadableWidth="YES" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="CELL_ID" rowHeight="50" id="Lgd-kb-TEo">
+                                <rect key="frame" x="0.0" y="28" width="414" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" contentMode="left" restorationIdentifier="cell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lgd-kb-TEo" id="M0m-4E-6A2" customClass="UITableViewCell">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="49.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.1184270903" green="0.15331286190000001" blue="0.128531754" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.87767687179999998" green="0.86694517510000002" blue="0.78602329849999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
+                                <rect key="contentStretch" x="0.0" y="0.050000000000000003" width="1" height="1"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Oob-Pz-7Uc" id="Cf0-Ij-o6X"/>
+                            <outlet property="delegate" destination="Oob-Pz-7Uc" id="hyQ-EJ-Wep"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKi-4F-UX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613.0434782608697" y="23.64130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Plx-au-Dmx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="partialCurl" id="Jh8-Zg-OJN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="iHV-KO-8Px">
+                        <rect key="frame" x="0.0" y="20" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0086801256980000002" green="0.29965460300000002" blue="0.304741025" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="1" vertical="1"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.99942404029999998" green="0.99729840540000003" blue="0.79639589430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="3" vertical="3"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Yhv-te-FGc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8E-VY-nQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="24"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.99933999780000005" green="0.9973834157" blue="0.79550641779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

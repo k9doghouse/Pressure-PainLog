@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D24F24222D62D02001ADEE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F24122D62D02001ADEE5 /* AppDelegate.swift */; };
+		3D24F24422D62D02001ADEE5 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F24322D62D02001ADEE5 /* ChartViewController.swift */; };
+		3D24F24722D62D02001ADEE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F24522D62D02001ADEE5 /* Main.storyboard */; };
+		3D24F24922D62D03001ADEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F24822D62D03001ADEE5 /* Assets.xcassets */; };
+		3D24F24C22D62D03001ADEE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D24F24A22D62D03001ADEE5 /* LaunchScreen.storyboard */; };
+		3D24F25422D62F83001ADEE5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F25322D62F83001ADEE5 /* TableViewController.swift */; };
+		3D2EB49122D771D100F286F4 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2EB49022D771D100F286F4 /* DataCenter.swift */; };
+		3DBF81CF22D7D40400E2E3F3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF81CE22D7D40400E2E3F3 /* RoundedButton.swift */; };
+		3DCE7E7D22DA8EC100D962E9 /* Charter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE7E7C22DA8EC100D962E9 /* Charter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D24F23E22D62D02001ADEE5 /* Pressure&PainLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pressure&PainLogger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D24F24122D62D02001ADEE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D24F24322D62D02001ADEE5 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		3D24F24622D62D02001ADEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D24F24822D62D03001ADEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D24F24B22D62D03001ADEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D24F24D22D62D03001ADEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D24F25322D62F83001ADEE5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3D2EB49022D771D100F286F4 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		3DBF81CE22D7D40400E2E3F3 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3DCE7E7C22DA8EC100D962E9 /* Charter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D24F23B22D62D02001ADEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D24F23522D62D02001ADEE5 = {
+			isa = PBXGroup;
+			children = (
+				3D24F24022D62D02001ADEE5 /* Pressure&PainLogger */,
+				3D24F23F22D62D02001ADEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D24F23F22D62D02001ADEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F23E22D62D02001ADEE5 /* Pressure&PainLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D24F24022D62D02001ADEE5 /* Pressure&PainLogger */ = {
+			isa = PBXGroup;
+			children = (
+				3D24F24122D62D02001ADEE5 /* AppDelegate.swift */,
+				3D24F24822D62D03001ADEE5 /* Assets.xcassets */,
+				3DCE7E7C22DA8EC100D962E9 /* Charter.swift */,
+				3D24F24322D62D02001ADEE5 /* ChartViewController.swift */,
+				3D2EB49022D771D100F286F4 /* DataCenter.swift */,
+				3D24F24D22D62D03001ADEE5 /* Info.plist */,
+				3D24F24A22D62D03001ADEE5 /* LaunchScreen.storyboard */,
+				3D24F24522D62D02001ADEE5 /* Main.storyboard */,
+				3DBF81CE22D7D40400E2E3F3 /* RoundedButton.swift */,
+				3D24F25322D62F83001ADEE5 /* TableViewController.swift */,
+			);
+			path = "Pressure&PainLogger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D24F23D22D62D02001ADEE5 /* Pressure&PainLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D24F25022D62D03001ADEE5 /* Build configuration list for PBXNativeTarget "Pressure&PainLogger" */;
+			buildPhases = (
+				3D24F23A22D62D02001ADEE5 /* Sources */,
+				3D24F23B22D62D02001ADEE5 /* Frameworks */,
+				3D24F23C22D62D02001ADEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pressure&PainLogger";
+			productName = tableview;
+			productReference = 3D24F23E22D62D02001ADEE5 /* Pressure&PainLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D24F23622D62D02001ADEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = k9doghouse;
+				TargetAttributes = {
+					3D24F23D22D62D02001ADEE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D24F23922D62D02001ADEE5 /* Build configuration list for PBXProject "Pressure&PainLogger" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D24F23522D62D02001ADEE5;
+			productRefGroup = 3D24F23F22D62D02001ADEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D24F23D22D62D02001ADEE5 /* Pressure&PainLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D24F23C22D62D02001ADEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F24C22D62D03001ADEE5 /* LaunchScreen.storyboard in Resources */,
+				3D24F24922D62D03001ADEE5 /* Assets.xcassets in Resources */,
+				3D24F24722D62D02001ADEE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D24F23A22D62D02001ADEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D24F24422D62D02001ADEE5 /* ChartViewController.swift in Sources */,
+				3DCE7E7D22DA8EC100D962E9 /* Charter.swift in Sources */,
+				3DBF81CF22D7D40400E2E3F3 /* RoundedButton.swift in Sources */,
+				3D24F25422D62F83001ADEE5 /* TableViewController.swift in Sources */,
+				3D2EB49122D771D100F286F4 /* DataCenter.swift in Sources */,
+				3D24F24222D62D02001ADEE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D24F24522D62D02001ADEE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D24F24622D62D02001ADEE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D24F24A22D62D03001ADEE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D24F24B22D62D03001ADEE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D24F24E22D62D03001ADEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D24F24F22D62D03001ADEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D24F25122D62D03001ADEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WRWCSCM73;
+				INFOPLIST_FILE = "$(SRCROOT)/Pressure&PainLogger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "local.k9doghouse.-Pressure-PainLogger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D24F25222D62D03001ADEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WRWCSCM73;
+				INFOPLIST_FILE = "$(SRCROOT)/Pressure&PainLogger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "local.k9doghouse.-Pressure-PainLogger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D24F23922D62D02001ADEE5 /* Build configuration list for PBXProject "Pressure&PainLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F24E22D62D03001ADEE5 /* Debug */,
+				3D24F24F22D62D03001ADEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D24F25022D62D03001ADEE5 /* Build configuration list for PBXNativeTarget "Pressure&PainLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D24F25122D62D03001ADEE5 /* Debug */,
+				3D24F25222D62D03001ADEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D24F23622D62D02001ADEE5 /* Project object */;
+}
